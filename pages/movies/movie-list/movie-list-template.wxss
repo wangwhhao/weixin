@@ -1,0 +1,46 @@
+@import "../movie/movie-template.wxss";
+
+.movie-list-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.inner-container{
+    margin: 0 auto 20rpx;
+}
+
+.movie-head{
+    padding: 30rpx 20rpx 22rpx;
+    /*另一种方法让more靠右，flex布局和margin-top微调*/
+    /*display: flex;
+    flex-direction: row;
+    justify-content:space-between;*/
+}
+
+.slogan{
+    font-size: 24rpx;
+    /*margin-top: 10rpx;*/
+}
+
+.more{
+    float: right;
+}
+
+.more-text{
+    /*设置flex盒子模型后vertical-align无效果*/
+    vertical-align: middle;
+    color: #1f4ba5;
+    margin-right: 10rpx;
+}
+
+.more-img{
+    vertical-align: middle;
+    width: 9rpx;
+    height: 16rpx;
+}
+
+.movies-container{
+    display: flex;
+    flex-direction: row;
+}
